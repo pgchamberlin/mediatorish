@@ -7,3 +7,7 @@ This is just a small piece of code playing with using a mediator to handle event
 ### Behaviour
 
 This sort-of mediator marshalls the behaviour of a number of colleagues (my example uses two). It contains methods which call combinations of methods on its colleagues. Each of its methods is coupled to an event emitted by an external pub/sub system, to which the mediator subscribes. It is possible that the events are emitted by the colleagues themselves, for example on user input to a view, but this is not necessarily the case.
+
+### Reading
+
+If you're interested in the mediator pattern proper, check out Addy Osmani's [Patterns for Large Scale JS Application Architecture](http://addyosmani.com/largescalejavascript/#mediatorpattern) (which has a catchy name).
