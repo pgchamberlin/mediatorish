@@ -1,4 +1,4 @@
-## responsive-mediator
+## JS Mediator
 
 ### An example of a mediator
 
